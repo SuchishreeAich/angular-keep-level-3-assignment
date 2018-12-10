@@ -21,7 +21,7 @@ export class RouterService {
 
         'outlets' : {
 
-          editNoteOutlet : [
+          noteEditOutlet : [
             'note', noteId, 'edit'
           ]
         }

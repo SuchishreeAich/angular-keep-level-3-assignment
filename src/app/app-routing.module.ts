@@ -38,7 +38,7 @@ const routes: Routes = [
             {
                 path: 'note/:noteId/edit',
                 component: EditNoteOpenerComponent,
-                outlet: 'editNoteOutlet'
+                outlet: 'noteEditOutlet'
             }
         ]
     }

@@ -15,7 +15,7 @@ export class ListViewComponent {
 
   constructor(private notesService: NotesService) {
     const getNotesResponse = this.notesService.getNotes();
-
+    console.log('getNotesResponse');
     getNotesResponse.subscribe(
       (response) => {
         this.notStartedNotes = response.filter((note) => 'not-started' === note.state);
